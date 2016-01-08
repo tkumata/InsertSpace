@@ -1,7 +1,7 @@
 {
 	"name": "insertspace",
 	"displayName": "InsertSpace",
-	"description": "insert space char",
+	"description": "Insert space char between multibyte char and half.",
 	"version": "0.0.1",
 	"publisher": "tkumata",
 	"engines": {
@@ -17,7 +17,7 @@
 	"contributes": {
 		"commands": [{
 			"command": "extension.sayHello",
-			"title": "Hello World"
+			"title": "Insert Space"
 		}]
 	},
 	"scripts": {

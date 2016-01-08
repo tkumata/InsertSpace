@@ -1,13 +1,30 @@
-# README
-## This is the README for your extension "insertspace" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Visual Studio Code Extension, Insert Space
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+## Description
+この Extension は以下を実行します。
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- tab コードをその幅の分だけ空白文字に変換します。例えばタブ幅が 4 なら空白文字は 4 つに変換されます。
+- 全角英数字を半角英数字に変換します。
+- 全角文字と半角英数字の間に空白文字を挿入します。
 
-** Enjoy!**
+![サンプル](./sample1.png "サンプル")
+
+## Installing
+1. Download clone
+2. mv this/ $HOME/.vscode/extensions/
+3. Launch VSCode or restart VSCode
+
+See [Installing Extensions](https://code.visualstudio.com/Docs/extensions/install-extension)
+
+## Usage
+1. Press F1
+2. Input "Insert Space"
+
+## License
+MIT
+
+## Author
+tkumata
+
+## Thanks
+[TabSpacer](http://qiita.com/YuichiNukiyama/items/3b928a67248fe5c9a5ba)
