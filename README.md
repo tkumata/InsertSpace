@@ -17,7 +17,7 @@
 See [Installing Extensions](https://code.visualstudio.com/Docs/extensions/install-extension)
 
 ## Usage
-1. Press F1
+1. Press F1 key
 2. Input "Insert Space"
 
 ## License
