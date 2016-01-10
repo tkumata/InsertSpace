@@ -12,15 +12,13 @@
 ## Installing
 * Mac
     1. Download clone and unarchive
-    6. mv InsertSpace-master $HOME/.vscode/extensions/
-    7. Launch VSCode
+    2. mv InsertSpace-master $HOME/.vscode/extensions/
+    3. Launch VSCode
 
 * Windows
     1. Download clone and unarchive
-    6. Move InsertSpace-master to \Users\xxxxx\.vscode\extensions\
-    7. Launch VSCode
-
-See [Installing Extensions](https://code.visualstudio.com/Docs/extensions/install-extension)
+    2. Move InsertSpace-master to \Users\xxxxx\.vscode\extensions\
+    3. Launch VSCode
 
 ## Usage
     1. Press F1 key
