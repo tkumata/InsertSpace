@@ -10,7 +10,7 @@
 ![サンプル](./sample1.png "サンプル")
 
 ## Installing
-- Mac
+* Mac
     0. Install node.js
     1. Download clone and unarchive
     2. Open this folder by VSCode
@@ -20,7 +20,7 @@
     6. mv InsertSpace-master $HOME/.vscode/extensions/
     7. Launch VSCode
 
-- Windows
+* Windows
     0. Install node.js
     1. Download clone and unarchive
     2. Open this folder by VSCode (Right click and select 'Open with Code')
