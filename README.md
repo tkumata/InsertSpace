@@ -11,13 +11,14 @@
 
 ## Installing
 - Mac
+    0. Install node.js
     1. Download clone and unarchive
     2. Open this folder by VSCode
     3. Press F5 (open new window automatically)
     4. Press F1 in new window
     5. Quit VSCode all
     6. mv this/ $HOME/.vscode/extensions/
-    7. Launch VSCode or restart VSCode
+    7. Launch VSCode
 
 - Windows
     0. Install node.js
@@ -27,7 +28,7 @@
     4. Press F1 in new window
     5. Quit VSCode all
     6. Move to \Users\xxxxx\.vscode\extensions\
-    7. Launch VSCode or restart VSCode
+    7. Launch VSCode
 
 See [Installing Extensions](https://code.visualstudio.com/Docs/extensions/install-extension)
 
