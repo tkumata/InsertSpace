@@ -37,7 +37,9 @@ See [Installing Extensions](https://code.visualstudio.com/Docs/extensions/instal
     2. Input "Insert Space"
 
 ## License
-[MIT](http://opensource.org/licenses/mit-license.php)
+Copyright (c) 2016 tkumata
+
+This software is release under the MIT License, please see [MIT](http://opensource.org/licenses/mit-license.php)
 
 ## Author
 [tkumata](https://github.com/tkumata?tab=repositories)

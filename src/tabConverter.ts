@@ -10,21 +10,21 @@ export default class TabConverter {
             selection = new Selection(startPos, endPos),
             text = document.getText(),
             newText = '';
-            
+        
         editor.edit(edit => {
             // create spaces as same as number of tabSize
             let replaceValue = '';
             for (let i = 0; i  < options.tabSize ; i++) {
                 replaceValue += " ";
             }
-
+            
             // replace all tabs to space
             newText = text.replace(/\t/g, replaceValue);
             
-            // 全角を文字コードの引き算で半角にする
+            // 全角を文字コードの移動で変換する
             newText = newText.replace(/[！-～]/g, toHalf);
             function toHalf(match) {
-                // console.log(match);
+                //
                 return String.fromCharCode(match.charCodeAt(0) - 0xFEE0);
             }
             
@@ -37,8 +37,8 @@ export default class TabConverter {
                 .replace(/〜/g, "~");
             
             // 特定箇所に空白文字を挿入
-            newText = newText.replace(/([^\x01-\x7E])([0-9a-zA-Z])/g, "$1 $2")
-                .replace(/([0-9a-zA-Z])([^\x01-\x7E])/g, "$1 $2");
+            newText = newText.replace(/([^\x01-\x7E])([0-9a-z])/ig, "$1 $2")
+                .replace(/([0-9a-z])([^\x01-\x7E])/ig, "$1 $2");
             
             // 編集画面に反映させる
             edit.replace(selection, newText);
