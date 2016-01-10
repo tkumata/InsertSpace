@@ -5,28 +5,18 @@
 
 - tab コード (\t) をその幅の分だけ空白文字に変換します。例えばタブ幅が 4 なら空白文字は 4 つに変換されます。
 - 全角英数字を半角英数字に変換します。
-- 全角文字と半角英数字の間に空白文字を挿入します。
+- 全角文字と半角英数字の間に空白文字を挿入します。(下図参照)
 
 ![サンプル](./sample1.png "サンプル")
 
 ## Installing
 * Mac
-    0. Install node.js
     1. Download clone and unarchive
-    2. Open this folder by VSCode
-    3. Press F5 (open new window automatically)
-    4. Press F1 in new window and input 'Insert Space'
-    5. Quit VSCode all
     6. mv InsertSpace-master $HOME/.vscode/extensions/
     7. Launch VSCode
 
 * Windows
-    0. Install node.js
     1. Download clone and unarchive
-    2. Open this folder by VSCode (Right click and select 'Open with Code')
-    3. Press F5 (open new window automatically)
-    4. Press F1 in new window and input 'Insert Space'
-    5. Quit VSCode all
     6. Move InsertSpace-master to \Users\xxxxx\.vscode\extensions\
     7. Launch VSCode
 
