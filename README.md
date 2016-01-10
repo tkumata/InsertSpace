@@ -1,4 +1,4 @@
-# Visual Studio Code Extension, Insert Space
+# Visual Studio Code Extension, InsertSpace
 
 ## Description
 この Extension は以下を実行します。
@@ -17,17 +17,17 @@
     3. Press F5 (open new window automatically)
     4. Press F1 in new window and input 'Insert Space'
     5. Quit VSCode all
-    6. mv this/ $HOME/.vscode/extensions/
+    6. mv InsertSpace-master $HOME/.vscode/extensions/
     7. Launch VSCode
 
 - Windows
     0. Install node.js
     1. Download clone and unarchive
-    2. Open this folder by VSCode
+    2. Open this folder by VSCode (Right click and select 'Open with Code')
     3. Press F5 (open new window automatically)
     4. Press F1 in new window and input 'Insert Space'
     5. Quit VSCode all
-    6. Move to \Users\xxxxx\.vscode\extensions\
+    6. Move InsertSpace-master to \Users\xxxxx\.vscode\extensions\
     7. Launch VSCode
 
 See [Installing Extensions](https://code.visualstudio.com/Docs/extensions/install-extension)
