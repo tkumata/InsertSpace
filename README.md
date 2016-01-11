@@ -27,12 +27,6 @@
     1. Press F1 key
     2. Input "Insert Space"
 
-## Do you edit this source code?
-    1. Install node.js
-    2. Exec 'npm install -g yo generate-code'
-    3. Exec 'yo' in something directory
-    4. Move 'node_modules' to 'InsertSpace-master' directory
-
 ## License
 Copyright (c) 2016 tkumata
 
