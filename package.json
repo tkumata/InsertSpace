@@ -1,7 +1,7 @@
 {
-	"name": "insertspace",
+	"name": "InsertSpace",
 	"displayName": "InsertSpace",
-	"description": "Insert space char between multibyte char and half.",
+	"description": "Insert space char between full wide char and half.",
 	"version": "0.0.1",
 	"publisher": "tkumata",
 	"engines": {

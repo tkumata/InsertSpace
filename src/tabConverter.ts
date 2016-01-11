@@ -21,14 +21,13 @@ export default class TabConverter {
             // replace all tabs to space
             newText = text.replace(/\t/g, replaceValue);
             
-            // 全角を文字コードの移動で変換する
-            newText = newText.replace(/[！-～]/g, toHalf);
+            // コードシフトで変換する
             function toHalf(match) {
-                //
                 return String.fromCharCode(match.charCodeAt(0) - 0xFEE0);
             }
+            newText = newText.replace(/[！-～]/g, toHalf);
             
-            // 文字コードの引き算で対応できないものを個別で変換
+            // コードシフトで対応できないものを個別で変換
             newText = newText.replace(/”/g, "\"")
                 .replace(/’/g, "'")
                 .replace(/‘/g, "`")
