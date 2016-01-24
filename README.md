@@ -1,5 +1,4 @@
 # Visual Studio Code Extension, InsertSpace
-
 ## Description
 この Extension は UTF-8 が前提で以下を実行します。(英文合ってる？)
 
