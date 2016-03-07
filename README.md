@@ -1,9 +1,4 @@
 # Visual Studio Code Extension, InsertSpace
-オオオ
-
-イイイ
-
-.gitignore, vscodeignore が ignore されるわ
 
 ## Description
 この Extension は UTF-8 が前提で以下を実行します。(英文合ってる?)
@@ -46,3 +41,6 @@ This software is release under the MIT License, please see [MIT](http://opensour
 
 ## Thanks
 [TabSpacer](http://qiita.com/YuichiNukiyama/items/3b928a67248fe5c9a5ba)
+
+## あ
+hoge/* じゃないとダメかあ
