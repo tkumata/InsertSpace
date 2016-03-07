@@ -1,6 +1,8 @@
 # Visual Studio Code Extension, InsertSpace
 オオオ
+
 イイイ
+
 .gitignore, vscodeignore が ignore されるわ
 
 ## Description
