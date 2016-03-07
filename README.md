@@ -29,7 +29,7 @@
 
 or
 
-    1. ctrl+s
+    1. ctrl+s (windows: alt+s)
 
 ## License
 Copyright (c) 2016 tkumata
