@@ -1,4 +1,8 @@
 # Visual Studio Code Extension, InsertSpace
+オオオ
+イイイ
+.gitignore, vscodeignore が ignore されるわ
+
 ## Description
 この Extension は UTF-8 が前提で以下を実行します。(英文合ってる?)
 
