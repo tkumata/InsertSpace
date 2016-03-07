@@ -11,8 +11,6 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onLanguage:markdown",
-        "onLanguage:text",
 		"onCommand:extension.sayHello"
 	],
 	"main": "./out/src/extension",
@@ -20,7 +18,12 @@
 		"commands": [{
 			"command": "extension.sayHello",
 			"title": "Insert Space"
-		}]
+		}],
+        "keybindings": [{
+            "command": "extension.sayHello",
+            "key": "ctrl+s",
+            "when": "editorTextFocus"
+        }]
 	},
 	"scripts": {
 		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",

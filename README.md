@@ -1,6 +1,6 @@
 # Visual Studio Code Extension, InsertSpace
 ## Description
-このExtensionは UTF-8 が前提で以下を実行します。(英文合ってる？)
+この Extension は UTF-8 が前提で以下を実行します。(英文合ってる?)
 
 - tab コード (\t) をその幅の分だけ空白文字に変換します。例えばタブ幅が 4 なら空白文字は 4 つに変換されます。
 - Convert tab code to white space. For example if tab width is 4, this extension converts to 4 white space.
@@ -25,6 +25,10 @@
 ## Usage
     1. Press F1 key
     2. Input "Insert Space"
+
+or
+
+    1. ctrl+s
 
 ## License
 Copyright (c) 2016 tkumata
