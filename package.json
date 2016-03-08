@@ -1,5 +1,5 @@
 {
-    "name": "InsertSpace",
+    "name": "insertspace",
     "displayName": "InsertSpace",
     "description": "Insert space char between full wide char and half.",
     "version": "0.0.1",
